@@ -11,8 +11,6 @@ describe('Primeiro test', () => {
 
         await $('~button-Active').click()
 
-
-
         expect(await $('~text-input')).toBeDisplayed()
     });
 
