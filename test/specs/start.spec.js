@@ -15,6 +15,7 @@ describe('Primeiro test', () => {
         await $('android=new UiSelector().text("Appium is awesome")').click()
         //Button Active:
         await $('~button-Active').click()
+        await $('android=new UiSelector().text("ASK ME LATER")').click()
     
 
         expect(await $('~text-input')).toBeDisplayed()
